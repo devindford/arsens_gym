@@ -400,14 +400,6 @@ footer a {
     align-self: flex-start;
   }
 
-  .hero-text h1 {
-    font-size: 6rem;
-  }
-
-  .hero-text h2 {
-    font-size: 8rem;
-  }
-
   #info h2 {
     padding-top: 10rem;
     padding-bottom: 0;
@@ -465,5 +457,15 @@ footer a {
   }
   .form-container button {
     width: 30%;
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  .hero-text h1 {
+    font-size: 6rem;
+  }
+
+  .hero-text h2 {
+    font-size: 8rem;
   }
 }
