@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- * Add for SEO -->
+    <meta
+      name="description"
+      content="Arsen's Gym of Orange, CT offers the most real 24 hour gym experience in the area. See what we offer, and find information about membership. Join Now and become part of something great!"
+    />
+    <!-- * Add for SEO and web crawlers, appear on google faster-->
+    <meta name="robots" content="index, follow" />
+    <!-- * Changes icon in title tab -->
+    <link rel="icon" href="./img/aresn_logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Arsen's Gym | A Real Gym In Orange, CT</title>
+  </head>
+  <body>
+    <main>
+      <header class="head">
+        <nav class="main-nav">
+          <img src="./img/aresn_logo.png" alt="Arsen's Gym Logo" class="logo" />
+          <ul>
+            <li><a href="#info">Learn More</a></li>
+            <li><a href="#membership">Membership</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="hero">
+        <div class="hero-img">
+          <img src="./img/aresn_logo.png" alt="Arsen's Gym Logo" class="logo" />
+        </div>
+        <div class="hero-text">
+          <h1>
+            Finally
+          </h1>
+          <h2>A <span>REAL</span> GYM</h2>
+          <p>
+            When you join our gym you're joining a family that cares about you.
+          </p>
+
+          <a href="#membership"><button class="join-btn">Join Now!</button></a>
+        </div>
+      </section>
+      <section id="info">
+        <h2>What We Provide</h2>
+        <div class="lists">
+          <div class="left-list">
+            <ul>
+              <li class="bold">Equipment</li>
+              <li>70+ Strength Equipment Pieces</li>
+              <li>Racks</li>
+              <li>Deadlift Platforms</li>
+              <li>Specialty Bars</li>
+              <li>Cardio Machines</li>
+              <li>Free Weights</li>
+              <li>Cable Machines</li>
+            </ul>
+          </div>
+          <div class="right-list">
+            <ul>
+              <li class="bold">Membership Perks</li>
+              <li>24/7 access*</li>
+              <li>24/7 Security</li>
+              <li>Convenient Parking</li>
+              <li>Locker Rooms</li>
+              <li>Private Restrooms</li>
+              <li>Family Business</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="membership">
+        <div class="form-container">
+          <h2 class="form-head">
+            Fill this out and someone will contact you shortly about your
+            membership
+          </h2>
+          <form action="https://formspree.io/xeqrkjre" method="POST">
+            <div class="name-form">
+              <label for="name">Name:</label><br />
+              <input id="name" type="text" name="name" required />
+            </div>
+            <div class="email-form">
+              <label for="email">Email:</label><br />
+              <input id="email" type="email" required name="_replyto" />
+            </div>
+            <div class="phone-form">
+              <label for="phone">Phone Number:</label><br />
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="203-555-5555"
+              />
+            </div>
+            <button type="submit" value="send">Submit</button>
+          </form>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <ul>
+          <li>
+            <ion-icon name="phone-portrait-outline"></ion-icon>Call: <br />
+            <a target="_blank" href="tel:203-243-7399">203-243-7399</a>
+          </li>
+          <li>
+            <ion-icon name="mail-outline"></ion-icon>Email: <br />
+            <a target="_blank" href="mailto: gymarsens@yahoo.com"
+              >gymarsens@yahoo.com</a
+            >
+          </li>
+          <li>
+            <ion-icon name="navigate-circle-outline"></ion-icon>Visit: <br />
+            <a
+              target="_blank"
+              href="https://www.google.com/maps/dir/41.0919838,-73.4093017/41.2566903,-73.0126584/@41.1882248,-73.4995006,10z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0"
+              >464 Boston Post Rd, Orange, CT 06477</a
+            >
+          </li>
+        </ul>
+        <ul class="socials">
+          <li>
+            <a href="https://www.facebook.com/arsensgym/" target="_blank"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/arsensgym/" target="_blank"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <div class="mobile-nav">
+      <nav class="bottom-nav">
+        <img src="./img/aresn_logo.png" alt="Arsen's Gym Logo" class="logo" />
+        <ul>
+          <li><a href="#info">Learn More</a></li>
+          <li><a href="#membership">Membership</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <footer>
+      <p>&copy; Arsen's Gym</p>
+      <p>
+        Website created by
+        <a href="https://twitter.com/devindford" target="_blank">Devin Ford</a>
+      </p>
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  </body>
+</html>
