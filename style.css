@@ -88,6 +88,7 @@ button:hover {
 .bottom-nav .logo {
   flex: 1 1 1.5rem;
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 .bottom-nav img {
