@@ -20,8 +20,8 @@ html {
 
 /* *Global Styles */
 
-h1 {
-  font-size: calc(3rem + 1vw);
+h2.finally {
+  font-size: calc(2.6rem + 1vw);
 }
 
 h2 {
@@ -29,7 +29,6 @@ h2 {
   font-weight: 400;
 }
 
-h1,
 h2 {
   font-family: "Merriweather", serif;
 }
@@ -82,16 +81,17 @@ button:hover {
 }
 
 .bottom-nav {
-  position: fixed;
   display: flex;
-  padding-top: 1rem;
   max-height: 10rem;
 }
 
 .bottom-nav .logo {
-  max-width: 10%;
-  flex: 1 1 25rem;
+  flex: 1 1 1.5rem;
   margin-left: 10px;
+}
+
+.bottom-nav img {
+  max-height: 50px;
 }
 
 .bottom-nav ul {
@@ -100,13 +100,14 @@ button:hover {
   list-style: none;
   align-items: center;
   justify-content: flex-end;
+  padding: 0;
 }
 
 .bottom-nav li {
-  margin-right: 5px;
+  margin-right: 6px;
   border: 2px solid #999999;
   border-radius: 10px;
-  padding: 0.5rem 0.2rem;
+  padding: 0.5rem 0;
   background: #ffffff;
 }
 
@@ -117,7 +118,7 @@ button:hover {
 
 /* *Main Section */
 
-.hero {
+#hero {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -137,12 +138,12 @@ button:hover {
 .hero-img {
   text-align: center;
   flex: 1 1 20rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
   opacity: 0;
   animation: opening 2s ease-in-out 1.8s forwards;
 }
 
-.hero img {
+#hero a img {
   max-width: 60%;
   padding-bottom: 1rem;
 }
@@ -155,7 +156,6 @@ button:hover {
   animation: opening 2s ease-in-out 2s forwards;
 }
 
-.hero-text h1,
 .hero-text h2 {
   margin: 0;
   padding: 0 1rem;
@@ -246,15 +246,13 @@ li.bold {
 }
 
 .form-container button {
-  width: 100%;
+  width: 80%;
   padding: 2rem;
-  margin-top: 8rem;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  margin: 5rem 10%;
 }
 
 .form-container input {
-  padding: 1rem 10rem;
+  padding: 1rem 6rem;
   border-radius: 15px;
   text-align: center;
   background: rgba(156, 156, 156, 0.555);
@@ -383,7 +381,7 @@ footer a {
     border-bottom: 1px solid #ffffff;
   }
 
-  .hero {
+  #hero {
     margin-top: 11rem;
     flex-direction: row;
     justify-content: space-between;
@@ -395,7 +393,6 @@ footer a {
     align-items: center;
   }
 
-  .hero-text h1,
   .hero-text h2 {
     align-self: flex-start;
   }
@@ -461,11 +458,11 @@ footer a {
 }
 
 @media screen and (min-width: 1060px) {
-  .hero-text h1 {
-    font-size: 6rem;
-  }
-
   .hero-text h2 {
     font-size: 8rem;
+  }
+
+  h2.finally {
+    font-size: 6rem;
   }
 }
