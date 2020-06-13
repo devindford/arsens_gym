@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background: #000000;
-  animation: opening 1.5s ease-in-out;
+  animation: opening 1s ease-in-out;
 }
 
 html {
@@ -141,7 +141,7 @@ button:hover {
   flex: 1 1 20rem;
   padding-top: 3rem;
   opacity: 0;
-  animation: opening 2s ease-in-out 1.8s forwards;
+  animation: opening 1s ease-in-out 1.1s forwards;
 }
 
 #hero a img {
@@ -154,7 +154,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   opacity: 0;
-  animation: opening 2s ease-in-out 2s forwards;
+  animation: opening 1s ease-in-out 1.3s forwards;
 }
 
 .hero-text h2 {
