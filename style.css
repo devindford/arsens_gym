@@ -96,7 +96,7 @@ button:hover {
 }
 
 .bottom-nav ul {
-  flex: 1 1 25rem;
+  flex: 1 1 30rem;
   display: flex;
   list-style: none;
   align-items: center;
@@ -108,7 +108,7 @@ button:hover {
   margin-right: 6px;
   border: 2px solid #999999;
   border-radius: 10px;
-  padding: 0.5rem 0;
+  padding: 0.5rem 0.8rem;
   background: #ffffff;
 }
 
@@ -340,6 +340,12 @@ footer a {
 }
 
 /* *Responsive */
+
+@media screen and (max-width: 350px) {
+  .bottom-nav li {
+    padding: 0.5rem 0.2rem;
+  }
+}
 
 @media screen and (min-width: 600px) {
   .mobile-nav {
