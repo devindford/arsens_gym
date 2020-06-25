@@ -51,13 +51,13 @@ button {
   -webkit-box-shadow: 0 0px 8px #000000;
           box-shadow: 0 0px 8px #000000;
   cursor: pointer;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 button:hover {
-  color: #000000;
-  background: #ffffff;
+  background: #1a1a1a;
+  border-color: #000000;
 }
 
 /* ?Mobile Styles */
@@ -564,7 +564,7 @@ footer a {
     font-size: 8rem;
   }
   .form-container button {
-    width: 25%;
+    width: 20%;
   }
   .form-container input {
     width: 30%;
